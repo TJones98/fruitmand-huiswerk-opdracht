@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    width: 350px;
+    padding: 1.5rem;
+    margin-bottom: 20px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.order-form{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+}
+
+.text-button {
+    width: 75px;
+}
+
+.delivery-frequency {
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.remark-field {
+    display: flex;
+    flex-direction: column;
+}
