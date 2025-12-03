@@ -4,6 +4,7 @@ import FruitCounter from "./components/FruitCounter.jsx";
 import FormInputField from "./components/FormInputField.jsx";
 import RadioButton from "./components/RadioButton.jsx";
 import Button from "./components/Button.jsx";
+import logo from "./assets/screenshot-logo.png";
 
 function App() {
 
@@ -50,7 +51,10 @@ function App() {
 
   return (
     <>
-        <h1>Fruitmand bezorgservice</h1>
+        <img src={logo}
+             className="App-logo"
+             alt="Logo met de tekst: fruitmand bezorgservice: je mag toch niet naar buiten"
+        />
         <section className="fruit-counters">
             <FruitCounter
                 header="🍓Aardbeien"
